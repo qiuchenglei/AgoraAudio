@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$MuteAudioPfFragment"
+        android:icon="@drawable/ic_volume_off_black_24dp"
+        android:title="@string/pref_header_mute_or_disable_A_V" />
+
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$GatherAndPlayPfFragment"
+        android:icon="@drawable/ic_audio_gather_24dp"
+        android:title="@string/pref_header_audio_gather_and_play" />
+
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$ChannelAndRolePfFragment"
+        android:icon="@drawable/ic_directions_railway_black_24dp"
+        android:title="@string/pref_header_channel_and_role" />
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$RawDataPfFragment"
+        android:icon="@drawable/ic_raw_data_black_24dp"
+        android:title="@string/pref_header_raw_data" />
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$MusicPlayAndMixingPfFragment"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        android:title="@string/pref_header_music_list" />
+    <header
+        android:fragment="io.agora.audiocustomization.activity.SettingsActivity$PrivateParameterPfFragment"
+        android:icon="@drawable/ic_warning_black_24dp"
+        android:title="@string/pref_header_private_parameter" />
+</preference-headers>

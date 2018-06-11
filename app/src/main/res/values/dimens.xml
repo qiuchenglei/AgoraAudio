@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mute_audio_popup_window_height">174dp</dimen>
+    <dimen name="mute_audio_popup_window_width">200dp</dimen>
+
+    <dimen name="et_margin">16dp</dimen>
+
+    <dimen name="rb_margin_top">8dp</dimen>
+    <dimen name="rg_margin_top">32dp</dimen>
+
+    <dimen name="iv_setting_size">24dp</dimen>
+
+    <dimen name="iv_chat_room_size">48dp</dimen>
+
+
+    <dimen name="ml_popup_window_height">340dp</dimen>
+</resources>

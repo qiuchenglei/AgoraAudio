@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="@string/pref_raw_audio_record_key"
+        android:title="@string/pref_raw_audio_record_title" />
+
+    <SwitchPreference
+        android:key="@string/pref_raw_audio_playback_key"
+        android:title="@string/pref_raw_audio_playback_title" />
+
+    <ListPreference
+        android:entries="@array/pref_gather_and_play_list_values"
+        android:entryValues="@array/pref_gather_and_play_list_values"
+        android:key="@string/pref_samples_per_call_list_key"
+        android:title="@string/pref_samples_per_call_list_title" />
+</PreferenceScreen>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/iv_btn_play_music"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_music_note_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_btn_screen_record"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_fiber_dvr_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_btn_mute_audio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_mic_off_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_btn_record_audio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_voicemail_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_btn_speaker_phone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_speaker_phone_black_24dp" />
+
+        <ImageView
+            android:id="@+id/iv_btn_client_role_broadcaster"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ll_bottom"
+        android:indeterminateDrawable="@null"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_join_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/join" />
+
+    <TextView
+        android:id="@+id/tv_raw_audio_record_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_raw_audio_playback_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_raw_audio_record_info"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_audio_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_raw_audio_playback_info"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/tv_audio_focus" />
+
+    <TextView
+        android:id="@+id/tv_music_progress"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/ll_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_btn_private_parameter"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_warning_black_24dp" />
+
+    <ImageView
+        android:id="@+id/iv_btn_play_music_mixing"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/iv_btn_private_parameter"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_library_music_black_24dp" />
+
+</RelativeLayout>

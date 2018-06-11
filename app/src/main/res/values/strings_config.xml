@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <!-- For formal released project, please use Dynamic Key
+        http://docs.agora.io/en/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html -->
+    <string name="private_app_id">85e1a97d20dc424a9db6487ec83afdc0</string>
+
+
+    <string-array name="music_list_for_mix">
+        <item>If I Die Young.mp3</item>
+        <item>Beethoven Virus.mp3</item>
+        <item>omg.mp3</item>
+        <item>Friday.aac</item>
+        <item>Du Du Lu.mp3</item>
+        <item>那英-白天不懂夜的黑.m4a</item>
+    </string-array>
+
+    <string-array name="music_list_for_effect">
+        <item>dongdongda.m4a</item>
+        <item>音爆.m4a</item>
+        <item>Mario.mp3</item>
+        <item>Landowner.mp3</item>
+    </string-array>
+
+    <string name="legal_channel_name_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+
+</resources>

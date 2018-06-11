@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">AgoraAudio</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_wifi_display">Wifi Display</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="join">join</string>
+    <string name="leave">leave</string>
+
+    <string name="label_mute_local_audio">Mute Local Audio</string>
+    <string name="label_mute_remote_audio">Mute Peer Audio(s)</string>`
+    <string name="label_pause_audio">Pause Audio</string>
+    <string name="label_disable_audio">Disable Audio</string>
+
+    <string name="msg_local_audio_record_file_generated">Audio File Generated at %s</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!--setting-->
+    <string name="pref_header_mute_or_disable_A_V">mute &amp; disable A &#47; V</string>
+    <string name="pref_mute_audio_local_key">mute_audio_local</string>
+    <string name="pref_mute_audio_local_title">Mute Audio Local</string>
+    <string name="pref_mute_audio_all_remote_key">mute_audio_all_remote</string>
+    <string name="pref_mute_audio_all_remote_title">Mute Audio All Remote</string>
+    <string name="pref_disable_audio_key">disable_audio</string>
+    <string name="pref_disable_audio_title">Disable Audio</string>
+
+    <string name="pref_header_channel_and_role">Channel &amp; Role</string>
+    <string name="pref_channel_profile_key">channel_profile</string>
+    <string name="pref_channel_profile_title">Use Live Mode</string>
+    <string name="pref_channel_profile_summary_on">Using live mode now</string>
+    <string name="pref_channel_profile_summary_off">Using communicate mode now</string>
+    <string name="pref_client_role_key">client_role</string>
+    <string name="pref_client_role_title">Use The Broadcaster Identity</string>
+    <string name="pref_client_role_summary_on">Client role is broadcaster now</string>
+    <string name="pref_client_role_summary_off">Client role is audience now</string>
+
+    <string name="pref_header_raw_data">Raw Data</string>
+    <string name="pref_header_music_list">Music List</string>
+    <string name="pref_header_private_parameter">Private Parameter</string>
+    <string name="pref_raw_audio_record_key">raw_audio_record</string>
+    <string name="pref_raw_audio_record_title">Show Raw Audio Record Info.</string>
+    <string name="pref_raw_audio_playback_key">raw_audio_playback</string>
+    <string name="pref_raw_audio_playback_title">Show Raw Audio Playback Info.</string>
+    <string name="pref_samples_per_call_list_key">samples_per_call</string>
+    <string name="pref_samples_per_call_list_title">Samples Per Call</string>
+    <string-array name="pref_gather_and_play_list_values">
+        <item>640</item>
+        <item>1024</item>
+        <item>2048</item>
+    </string-array>
+
+    <string name="pref_header_audio_gather_and_play">Audio Gather &amp; Play</string>
+    <string name="pref_gather_and_play_list_key">gather_and_play_list</string>
+    <string name="pref_gather_and_play_list_title">Gather &amp; Play</string>
+    <string-array name="pref_gather_and_play_list_titles">
+        <item>App Gather, App Play</item>
+        <item>App Gather, SDK Play</item>
+        <item>SDK Gather, App Play</item>
+        <item>SDK Gather, SDK Play</item>
+    </string-array>
+    <!--<string-array name="pref_gather_and_play_list_values">-->
+        <!--<item>2</item>-->
+        <!--<item>1</item>-->
+        <!--<item>0</item>-->
+        <!--<item>-1</item>-->
+    <!--</string-array>-->
+
+    <string name="pref_sampling_rate_list_key">sampling_rate_list</string>
+    <string name="pref_sampling_rate_list_title">Sampling Rate</string>
+    <string name="pref_sampling_rate_list_default_value">16000</string>
+    <string-array name="pref_sampling_rate_list_values">
+        <item>8000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>44100</item>
+    </string-array>
+    <string-array name="pref_list_values_4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string name="activity_presentation">App/Activity/Presentation</string>
+    <string name="presentation_activity_text">This activity demonstrates how to use a
+                  Presentation and the DisplayManager to show content on other Displays.\n
+                  Try connecting a secondary display and watch what happens.\n
+                  Selecting a Display will open a Presentation on it.</string>
+    <string name="presentation_show_all_displays">Show all displays</string>
+    <string name="presentation_photo_text">Showing photo #%1$d on display #%2$d: %3$s.</string>
+    <string name="presentation_info_text">Info</string>
+    <string name="presentation_display_id_text">Display #%1$d: %2$s</string>
+    <string name="presentation_alert_info_text">Display #%1$d Info</string>
+    <string name="presentation_alert_dismiss_text">OK</string>
+
+    <string name="activity_presentation_with_media_router">App/Activity/Presentation with Media Router</string>
+    <string name="presentation_with_media_router_activity_text">This activity demonstrates how to
+                  use a Presentation and the MediaRouter to automatically
+                  show content on a secondary display when available based on the currently
+                  selected media route.\n
+                  Try connecting a secondary display and watch what happens.</string>
+    <string name="presentation_with_media_router_play_on">Play on...</string>
+    <string name="presentation_with_media_router_now_playing_locally">Now playing on main display \'%s\'.</string>
+    <string name="presentation_with_media_router_now_playing_remotely">Now playing on secondary display \'%s\'.</string>
+
+    <string name="label_volume_type_music">Music</string>
+    <string name="label_volume_type_mic">Mic</string>
+    <string name="label_choose_music_to_play">Choose music</string>
+    <string name="text_default_progress">0/0</string>
+
+
+</resources>

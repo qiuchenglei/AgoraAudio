@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mute_audio_popup_window_width"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="6dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_private_parameter_btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
